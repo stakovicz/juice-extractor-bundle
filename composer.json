@@ -1,0 +1,24 @@
+{
+    "name": "stakovicz/juice-extractor-bundle",
+    "description": "Extract juice",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Albin\\JuiceExtractorBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Albin\\JuiceExtractorBundle\\Tests": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stakovicz",
+            "email": "albin@les-tilleuls.coop"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
