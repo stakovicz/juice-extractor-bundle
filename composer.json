@@ -5,12 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Albin\\JuiceExtractorBundle\\": "src/"
+            "Stakovicz\\JuiceExtractorBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Albin\\JuiceExtractorBundle\\Tests": "tests/"
+            "Stakovicz\\JuiceExtractorBundle\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -20,5 +20,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "8.2.*",
+        "twig/twig": "4.x-dev",
+        "symfony/dependency-injection": "7.3.x-dev",
+        "symfony/event-dispatcher": "7.3.x-dev",
+        "symfony/http-kernel": "7.3.x-dev"
+    },
+    "require-dev": {
+        "symfony/stopwatch": "7.3.x-dev"
+    }
 }
